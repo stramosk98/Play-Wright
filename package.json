@@ -1,0 +1,24 @@
+{
+  "name": "play-wright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --browser=all",
+    "test-html-report": "playwright test --browser=all --reporter=html",
+    "test-json-report": "PLAYWRIGHT_JSON_OUTPUT_NAME=results.json playwright test --browser=chromium --reporter=json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.1",
+    "playwright": "^1.49.0",
+    "toml": "^3.0.0",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "playwright-core": "^1.49.0",
+    "undici-types": "^6.20.0"
+  },
+  "description": ""
+}
